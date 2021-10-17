@@ -21,5 +21,10 @@ namespace CatraSport.Win
 
             listadeProductosBindingSource.DataSource = listadeProductos;
         }
+
+        private void listadeProductosDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
